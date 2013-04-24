@@ -1,0 +1,19 @@
+# cally sort filenames
+--sort-files
+
+--type-add=ruby=rake,haml
+--type-add=vim=vimrc
+--type-add=js=json
+--type-set=cucumber=feature
+--type-set=style=sass,less,css,scss
+--type-set=scss=scss
+--type-set=less=less
+--type-set=css=css
+--type-set=optimized=match:/\.optimized/
+
+# add types ack doesn't know about
+--type-set=MARKDOWN=md,mkd,markdown
+--type-set=RDOC=rdoc
+
+# Some dirs to ignore, by default
+--ignore-dir=node_modules
