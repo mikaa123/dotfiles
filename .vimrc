@@ -95,8 +95,8 @@ map ,, <C-^>
 map <leader>y "*y
 map <leader>p "*p
 
-map j gj
-map k gk
+nnoremap j gj
+nnoremap k gk
 
 inoremap <C-D> <del>
 
