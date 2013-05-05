@@ -6,3 +6,6 @@ term screen-256color
 # http://www.samsarin.com/blog/2007/03/11/gnu-screen-working-with-the-scrollback-buffer/
 # Allows to paste to the clipboard when in copymode.
 bind b eval "writebuf" "exec sh -c 'pbcopy < /tmp/screen-exchange'"
+
+# Avoid remaining screen after closing vim
+altscreen on
