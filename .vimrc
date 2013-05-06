@@ -2,6 +2,8 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+runtime macros/matchit.vim
+
 set exrc            " enable per-directory .vimrc files
 set secure          " disable unsafe commands in local .vimrc files
 
