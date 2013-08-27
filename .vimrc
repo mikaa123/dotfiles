@@ -19,11 +19,13 @@ set laststatus=2
 set switchbuf=useopen
 set showcmd
 
-" Use two spaces for indentation
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
-set expandtab
+" Indentation using tabs.
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
 
 " This shows the tabline, at the top.
 set showtabline=2
@@ -63,7 +65,7 @@ set nobackup
 set noswapfile
 
 " highlight current line
-set cursorline
+" set cursorline
 
 " make searches case-sensitive only if they contain upper-case characters
 set ignorecase smartcase
